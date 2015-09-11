@@ -20,14 +20,14 @@ public class TeamCommand implements CommandExecutor {
     		return false;
     	}
     	Player p = (Player) sender;
-    	if(label.equalsIgnoreCase("team help"))
+    	if(label.equalsIgnoreCase("team"))
     	{
     		if(args.length == 0)
     		{
     			Messages.TEAM_HELP(p);
     		}
     	}
-    	if(label.equalsIgnoreCase("team help 2"))
+    	if(args[0].equalsIgnoreCase("help")
     	{
     		if(args.length == 1)
     		{
